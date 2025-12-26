@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Project Idea Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>College Project Idea Generator</h1>
+
+    <select id="department">
+      <option>Select Department</option>
+      <option>ECE</option>
+      <option>CSE</option>
+      <option>EEE</option>
+      <option>IT</option>
+    </select>
+
+    <select id="domain">
+      <option>Select Domain</option>
+      <option>Web Development</option>
+      <option>IoT</option>
+      <option>AI</option>
+      <option>Embedded Systems</option>
+    </select>
+
+    <select id="level">
+      <option>Select Difficulty</option>
+      <option>Easy</option>
+      <option>Medium</option>
+      <option>Hard</option>
+    </select>
+
+    <button onclick="generateIdea()">Generate Idea</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
